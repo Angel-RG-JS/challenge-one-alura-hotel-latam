@@ -1,4 +1,4 @@
-package views;
+package one.alura.hotelAlura.views;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -20,19 +20,6 @@ import java.awt.Toolkit;
 public class Exito extends JDialog {
 
 	private final JPanel contentPanel = new JPanel();
-
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		try {
-			Exito dialog = new Exito();
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
 
 	/**
 	 * Create the dialog.
